@@ -12,7 +12,7 @@ def load_model():
 
 model = load_model()
 
-outlook = st.selectbox("Outlook", ["Sunny", "Overcast", "Rainy"], index=1)
+
 temperature = st.selectbox("Temperature", ["Hot", "Mild", "Cool"])
 humidity = st.radio("Humidity", ["High", "Normal"], horizontal=True)
 windy = st.checkbox("Windy")
