@@ -1,0 +1,13 @@
+# virtual environment (never commit it - rebuild it from requirements.txt)
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+
+
+# secrets and local settings
+.env 
+
